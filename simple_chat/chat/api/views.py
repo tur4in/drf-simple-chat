@@ -42,7 +42,6 @@ class MessageViewSet(viewsets.ModelViewSet):
     serializer_class = MessageSerializer
     permission_classes = [IsAuthenticated]
 
-    
     def get_queryset(self):
         thread_id = self.kwargs.get('thread_id')
         if thread_id:
