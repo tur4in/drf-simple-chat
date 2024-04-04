@@ -1,0 +1,18 @@
+# virtual env
+.venv
+
+# IDE
+.vscode
+
+# cache
+**/__pycache__/
+*.py[cod]
+
+# Credentials and other data
+*.json
+
+# sqlite DB
+*.sqlite3
+
+# Data Cache
+.cache
